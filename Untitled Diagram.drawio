@@ -1,171 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T09:46:19.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="790AN0rqLCnXn3ihV__d" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T01:38:37.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="q2vgBJvF6oP-7nn1V1CP" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-0" value="系统发起告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="10" width="80" height="40" as="geometry" />
+        <mxCell id="tQ_BmDDoMwFocFlw3b7p-0" value="触发定修流程" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="155" y="10" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-27" value="维修人员" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-3">
+        <mxCell id="tQ_BmDDoMwFocFlw3b7p-66" value="维保人员" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="370" as="targetPoint" />
+            <mxPoint x="196" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-3" value="分配维修人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="165" y="290" width="70" height="30" as="geometry" />
+        <mxCell id="tQ_BmDDoMwFocFlw3b7p-10" value="&lt;span&gt;安排维保人员&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="147.5" y="110" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="440" as="sourcePoint" />
-            <mxPoint x="320" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-10" target="tQ_BmDDoMwFocFlw3b7p-65">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-10" value="&lt;span&gt;识别并推送信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="100" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-11" value="业主方调度&lt;br&gt;负责人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-0" target="tQ_BmDDoMwFocFlw3b7p-10">
+        <mxCell id="tQ_BmDDoMwFocFlw3b7p-11" value="区域负责人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-0" target="tQ_BmDDoMwFocFlw3b7p-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="100" as="sourcePoint" />
             <mxPoint x="360" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="120" />
+              <mxPoint x="198" y="70" />
+              <mxPoint x="198" y="70" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-29" value="NO&lt;br&gt;维修班长" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-51">
-          <mxGeometry x="0.0083" relative="1" as="geometry">
-            <mxPoint x="208.76" y="555" as="sourcePoint" />
-            <mxPoint x="200" y="620" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-19" target="tQ_BmDDoMwFocFlw3b7p-51">
+        <mxCell id="nvcWXLcCRinOxARmA4Hy-5" value="维保人员&lt;br&gt;（优化人员）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nvcWXLcCRinOxARmA4Hy-1" target="nvcWXLcCRinOxARmA4Hy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-19" value="维修故障，反馈维修结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="450" width="90" height="30" as="geometry" />
+        <mxCell id="nvcWXLcCRinOxARmA4Hy-1" value="进行维护后&lt;br&gt;提交维护结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="152.5" y="190" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-36" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-60" target="tQ_BmDDoMwFocFlw3b7p-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="280" as="targetPoint" />
-            <mxPoint x="231.25" y="640" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="320" y="720" />
-              <mxPoint x="320" y="280" />
-              <mxPoint x="200" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-42" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-40" target="tQ_BmDDoMwFocFlw3b7p-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-43" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-40" target="tQ_BmDDoMwFocFlw3b7p-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-40" value="是否准备物料" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="163.75" y="370" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-44" target="tQ_BmDDoMwFocFlw3b7p-48">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-46" value="维修人员" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tQ_BmDDoMwFocFlw3b7p-45">
-          <mxGeometry x="-0.4314" y="1" relative="1" as="geometry">
-            <mxPoint y="8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-44" value="物料管理员：准备物料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="380" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-48" target="tQ_BmDDoMwFocFlw3b7p-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-48" value="领料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="452.5" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-56" value="YES&lt;br&gt;校验人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-51" value="是否交叉检验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="168.13" y="500" width="61.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-59" value="维修班长" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-57" target="tQ_BmDDoMwFocFlw3b7p-58">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="80" y="640" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-57" value="校验结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="570" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-58" target="tQ_BmDDoMwFocFlw3b7p-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-58" value="班长确认效果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="620" width="85" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-62" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-60">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="199.9949999999999" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-60" value="是否合格" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="169.37" y="690" width="61.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-63" value="发送消息给调度负责人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="163.76" y="790" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-67" value="NO&lt;br&gt;业主维修班长" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-69" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tQ_BmDDoMwFocFlw3b7p-68">
-          <mxGeometry x="-0.1177" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-65" value="是否调用其他维修系统" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="150" width="77.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-70">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="447" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-72" value="其他维修系统&lt;br&gt;反馈维修结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tQ_BmDDoMwFocFlw3b7p-71">
-          <mxGeometry x="0.1883" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-70" value="PHM调用其他维修系统接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="155" width="66" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tQ_BmDDoMwFocFlw3b7p-73" target="tQ_BmDDoMwFocFlw3b7p-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="447" y="805" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQ_BmDDoMwFocFlw3b7p-73" value="其他维修系统接口调用PHM接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="410" width="66" height="50" as="geometry" />
+        <mxCell id="nvcWXLcCRinOxARmA4Hy-4" value="优化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="152.5" y="290" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
